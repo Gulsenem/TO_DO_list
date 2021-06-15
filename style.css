@@ -39,8 +39,8 @@ button
     margin-left: 10px;
 }
 #add  {background-color: #fcc81e;}
-#check { background-color: #1ab41a;}
-#kreuz { background-color: red;}
+.check { background-color: #1ab41a;}
+.kreuz { background-color: red;}
 .liste_right span 
 {
     color: #55b5ec;
@@ -48,8 +48,8 @@ button
 }
 
 #add:hover  {background-color: #fadc78;}
-#check:hover { background-color: #1fce1f;}
-#kreuz:hover { background-color: #f35f5f;}
+.check:hover { background-color: #1fce1f;}
+.kreuz:hover { background-color: #f35f5f;}
 #liste_right span:hover 
 {
     color: #7ac1eb;
