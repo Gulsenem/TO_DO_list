@@ -3,6 +3,7 @@ var container = document.getElementById("container");
 
 function add()
 {
+    
     var liste = document.createElement("div");
     liste.classList.add("liste");
 
@@ -17,13 +18,14 @@ function add()
 
     var check = document.createElement("button");
     check.classList.add("check");
-    check.onclick = 
+    check.onclick = checked;
     
     var check_icon = document.createElement("i");
     check_icon.classList.add("fas", "fa-check");
 
     var kreuz = document.createElement("button");
     kreuz.classList.add("kreuz");
+    kreuz.onclick = deleted;
 
     var kreuz_icon = document.createElement("i");
     kreuz_icon.classList.add("fas", "fa-times");
@@ -40,4 +42,14 @@ function add()
     container.appendChild(liste);
 
 
+}
+
+function checked()
+{
+ 
+}
+
+function deleted()
+{
+    
 }
