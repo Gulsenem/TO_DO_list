@@ -2,7 +2,8 @@
 body
 {
     font-family: 'Segoe UI';
-    background-color: rgb(24, 23, 23);
+    
+background: linear-gradient(90deg, rgba(9,12,13,1) 12%, rgba(53,53,54,1) 50%, rgba(9,12,13,1) 100%);
     color:white;
     text-align: center;
 
